@@ -7,6 +7,5 @@
 
 from .artist import Artist
 from .concert import Concert
-from .user_concert import UserConcert
-from .user import User
+from .artist_concert import ArtistConcert
 from .venue import Venue
