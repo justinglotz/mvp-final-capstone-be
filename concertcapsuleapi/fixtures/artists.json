@@ -1,0 +1,30 @@
+[
+  {
+    "model": "concertcapsuleapi.artist",
+    "pk": 1,
+    "fields": {
+      "name": "Foo Fighters"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.artist",
+    "pk": 2,
+    "fields": {
+      "name": "Muse"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.artist",
+    "pk": 3,
+    "fields": {
+      "name": "Jon Batiste"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.artist",
+    "pk": 4,
+    "fields": {
+      "name": "Earth, Wind & Fire"
+    }
+  }
+]

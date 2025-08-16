@@ -1,0 +1,38 @@
+[
+  {
+    "model": "concertcapsuleapi.venue",
+    "pk": 1,
+    "fields": {
+      "name": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.venue",
+    "pk": 2,
+    "fields": {
+      "name": "Ascend Amphitheater",
+      "city": "Nashville",
+      "state": "TN"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.venue",
+    "pk": 3,
+    "fields": {
+      "name": "Nissan Stadium",
+      "city": "Nashville",
+      "state": "TN"
+    }
+  },
+  {
+    "model": "concertcapsuleapi.venue",
+    "pk": 4,
+    "fields": {
+      "name": "Pepsi Center",
+      "city": "Denver",
+      "state": "CO"
+    }
+  }
+]
