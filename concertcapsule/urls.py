@@ -16,7 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
+from concertcapsuleapi.views import VenueView, ArtistView, ConcertView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'venues', VenueView, 'venue')
+router.register(r'artists', ArtistView, 'artist')
+router.register(r'concerts', ConcertView, 'concert')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
 ]
